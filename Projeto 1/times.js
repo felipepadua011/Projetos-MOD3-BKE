@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
     res.status(200).json({message: "Times OK!!"});
 });
     
-router.post("/cadastrar", (req, res) => {
+router.post("/criartime", (req, res) => {
     const time = req.body;
 
     if (!time.nome) {
@@ -61,19 +61,19 @@ router.get("/listarnome/:nome", (req, res) => {
     res.status(200).json({index: index});
 });
 
-router.put("/listar/:id", (req, res) => {
+router.put("/editar/:id", (req, res) => {
     const id = req.params.id;
     const time = times[id];
     console.log(time);
     times[id] = req.body
-    res.status(200).json(times[id]);
+    res.status(200).json({message: "Time editado com sucesso!!"});
 });
 
-router.delete("/listar/:id", (req, res) => {
+router.delete("/deletar/:id", (req, res) => {
     const id = req.params.id;
     times.splice(id, 1);
     console.log(times[id]);  
-    res.status(200).json(times[id]);
+    res.status(200).json({message: "Time deletado com sucesso!!"});
 });
 
 module.exports = router;

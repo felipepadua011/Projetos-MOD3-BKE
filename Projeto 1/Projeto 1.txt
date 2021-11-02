@@ -1,0 +1,33 @@
+
+	Times
+
+{
+    "nome": "Corinthians",
+    "tecnico": "Sylvinho",
+    "titulos": "8",
+    "jogadores": "30 jogadores",
+    "torcida": "26,5 milhões",
+    "estádio": "Arena Corinthians"
+}
+
+	Jogos
+
+{
+  "nome": "GTA V",
+  "valor": "R$ 220,00",
+  "criador": "Leslie Benzies",
+  "anolancamento": "17/09/2013",
+  "genero": "Ação",
+  "downloads": "+ de 500 milhoões"
+}
+
+	Musicas
+
+{
+  "nome": "Pecuária 2.0",
+  "cantor": "Léo e Raphael",
+  "acessos": "3 milhões de visualizações",
+  "anolancamento": "24/09/2021",
+  "genero": "Sertanejo",
+  "duracao": "2:30"
+}
